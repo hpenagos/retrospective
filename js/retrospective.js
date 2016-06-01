@@ -457,11 +457,11 @@ var main = function(){
                 newblock = true;
                 blockN++;
                 /* Display choice for 2 sec and start a new block of trials */
-                setTimeout(function(){displayMessage()},2000);
+                setTimeout(function(){displayMessage()},500);
             }
             else{
                 /* Display choice for 2 sec and start new trial within current block */
-                setTimeout(function(){setUpTrial("right_A","left_A")}, 2000);
+                setTimeout(function(){setUpTrial("right_A","left_A")}, 500);
             }
         }
         else {
