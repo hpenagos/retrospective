@@ -1,9 +1,9 @@
 "use strict";
 /* Number of trials by type */
-var trialT1 = 20;
-var trialT2 = 20;
-var trialT3 = 15;
-var trialT4 = 15;
+var trialT1 = 4;
+var trialT2 = 4;
+var trialT3 = 3;
+var trialT4 = 3;
 var maxTrials = trialT1+trialT2+trialT3+trialT4;
 var current = 0;
 var test = false;
