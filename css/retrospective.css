@@ -70,5 +70,6 @@ div {
     position: absolute;
     left:40%;
     bottom:35%;
-    font-size:5em;
+    font-size:7em;
+    text-align:center;
 }
